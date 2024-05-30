@@ -1,5 +1,5 @@
 {
-  "name": "microfrontend-header",
+  "name": "microfrontend-base",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
