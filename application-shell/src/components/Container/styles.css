@@ -1,0 +1,20 @@
+#application-shell-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+#application-shell-header {
+  display: block;
+  height: 120px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#application-shell-content {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,34 @@
+{
+  "common": {
+    "header": {
+      "url": "http://localhost:3001/microfrontend-header__v1_0_0.js",
+      "tagName": "tcc-mfe-header"
+    },
+    "login": {
+      "url": "http://localhost:3001/microfrontend-login__v1_0_0.js",
+      "tagName": "tcc-mfe-login"
+    }
+  },
+  "routes": {
+    "home": [
+      {
+        "url": "http://localhost:3001/microfrontend-home__v1_0_0.js",
+        "traffic": 0.9,
+        "tagName": "tcc-mfe-home"
+      },
+      {
+        "url": "http://localhost:3001/microfrontend-home__v1_0_1.js",
+        "traffic": 0.1,
+        "tagName": "tcc-mfe-home"
+      }
+    ],
+    "builder": {
+      "url": "http://localhost:3001/microfrontend-builder__v1_0_0.js",
+      "tagName": "tcc-mfe-builder"
+    },
+    "attendance": {
+      "url": "http://localhost:3001/microfrontend-attendance__v1_0_0.js",
+      "tagName": "tcc-mfe-attendance"
+    }
+  }
+}
