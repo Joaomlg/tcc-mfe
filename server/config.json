@@ -26,9 +26,9 @@
       "url": "http://localhost:3001/fragments/microfrontend-builder__v1_0_0.js",
       "tagName": "tcc-mfe-builder"
     },
-    "attendance": {
-      "url": "http://localhost:3001/fragments/microfrontend-attendance__v1_0_0.js",
-      "tagName": "tcc-mfe-attendance"
+    "analytics": {
+      "url": "http://localhost:3001/fragments/microfrontend-analytics__v1_0_0.js",
+      "tagName": "tcc-mfe-analytics"
     }
   }
 }
