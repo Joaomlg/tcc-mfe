@@ -6,7 +6,7 @@ function App() {
     height: "100%",
   };
 
-  const AppHeaderStyles: React.CSSProperties = {
+  const AppContentStyles: React.CSSProperties = {
     backgroundColor: "#282c34",
     height: "100%",
     display: "flex",
@@ -18,10 +18,10 @@ function App() {
   };
 
   return (
-    <div className="App" style={AppStyles}>
-      <header className="App-header" style={AppHeaderStyles}>
-        Header MFE
-      </header>
+    <div style={AppStyles}>
+      <div style={AppContentStyles}>
+        Base MFE
+      </div>
     </div>
   );
 }

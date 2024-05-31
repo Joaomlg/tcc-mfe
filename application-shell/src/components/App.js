@@ -10,7 +10,6 @@ import "./App.css";
 import Container from "./Container";
 
 function App() {
-  const [initialized, setInitialized] = useState(false);
   const [session, setSession] = useState(null);
   const [fragmentsConfig, setFragmentsConfig] = useState(null);
 
@@ -35,8 +34,6 @@ function App() {
         loginFragmentHeader.tagName
       );
     }
-
-    setInitialized(true);
   }, []);
 
   const handleLoginEvent = useCallback(async (event) => {
@@ -68,18 +65,12 @@ function App() {
     };
   }, [handleLogoutEvent]);
 
-  return (
-    <>
-      {initialized ? (
-        session ? (
-          <Container config={fragmentsConfig} />
-        ) : (
-          <div id="application-shell-login"></div>
-        )
-      ) : (
-        <span>Carregando...</span>
-      )}
-    </>
+  return session ? (
+    <Container config={fragmentsConfig} />
+  ) : (
+    <div id="application-shell-login">
+      <span>Carregando...</span>
+    </div>
   );
 }
 
