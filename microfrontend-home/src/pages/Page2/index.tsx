@@ -2,7 +2,7 @@ import React from "react";
 
 function Page2() {
   const PageStyles: React.CSSProperties = {
-    backgroundColor: "#e6e6e6",
+    backgroundColor: "#cdcfd0",
     height: "100%",
     display: "flex",
     flexDirection: "column",

@@ -17,7 +17,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(110, 29, 185);
+  background-color: #355b8c;
   color: white;
   font-size: calc(10px + 2vmin);
 }

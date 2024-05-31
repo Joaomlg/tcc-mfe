@@ -7,7 +7,7 @@ function App() {
   };
 
   const AppContentStyles: React.CSSProperties = {
-    backgroundColor: "#b35f15",
+    backgroundColor: "#8eadf0",
     height: "100%",
     display: "flex",
     flexDirection: "column",
